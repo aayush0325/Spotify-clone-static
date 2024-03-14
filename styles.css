@@ -154,4 +154,185 @@ body{
 .spotify-playlists .list {
     display: flex;
     gap: 20px;
+    overflow: hidden;
+}
+
+
+
+.spotify-playlists .list .item{
+    min-width: 140px;
+    width: 160px;
+    padding: 15px;
+    background-color: #181818;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+.spotify-playlists .list .item:hover{
+    background-color: #252525;
+}
+
+
+
+.spotify-playlists .list .item img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+ 
+
+.spotify-playlists .list .item .play{
+    position: relative;
+}
+
+.spotify-playlists .list .item .play .fa{
+    position: absolute;
+    right: 10px;
+    top: -60px ;
+    background-color: #1db954;
+    border-radius: 100%;
+    padding: 18px;
+    color: #000;
+    opacity: 0;
+    transition: all ease 0.4s;
+
+}
+
+.spotify-playlists .list .item:hover .play .fa{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+
+
+.focus{
+    color: aliceblue; 
+    padding: 20px 40px;
+}
+
+
+.focus h2{
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px ;
+}
+
+.focus .list {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+
+
+.focus .list .item{
+    min-width: 140px;
+    width: 160px;
+    padding: 15px;
+    background-color: #181818;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+.focus .list .item:hover{
+    background-color: #252525;
+}
+
+
+
+.focus .list .item img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+ 
+
+.focus .list .item .play{
+    position: relative;
+}
+
+.focus .list .item .play .fa{
+    position: absolute;
+    right: 10px;
+    top: -60px ;
+    background-color: #1db954;
+    border-radius: 100%;
+    padding: 18px;
+    color: #000;
+    opacity: 0;
+    transition: all ease 0.4s;
+
+}
+
+.focus .list .item:hover .play .fa{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+
+.sound-of-india{
+    color: aliceblue; 
+    padding: 20px 40px;
+}
+
+
+.sound-of-india h2{
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px ;
+}
+
+.sound-of-india .list {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+
+
+.sound-of-india .list .item{
+    min-width: 140px;
+    width: 160px;
+    padding: 15px;
+    background-color: #181818;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+.sound-of-india .list .item:hover{
+    background-color: #252525;
+}
+
+
+
+.sound-of-india .list .item img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+ 
+
+.sound-of-india .list .item .play{
+    position: relative;
+}
+
+.sound-of-india .list .item .play .fa{
+    position: absolute;
+    right: 10px;
+    top: -60px ;
+    background-color: #1db954;
+    border-radius: 100%;
+    padding: 18px;
+    color: #000;
+    opacity: 0;
+    transition: all ease 0.4s;
+
+}
+
+.sound-of-india .list .item:hover .play .fa{
+    opacity: 1;
+    transform: translateY(-20px);
 }
